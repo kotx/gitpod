@@ -6,5 +6,5 @@ sudo apt-get update && sudo apt-get install -yq esl-erlang elixir
 curl -L https://fly.io/install.sh | sh
 
 # cloudflared
-wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -O /usr/bin/cloudflared
-chmod +x /usr/bin/cloudflared
+sudo wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -O /usr/bin/cloudflared
+sudo chmod +x /usr/bin/cloudflared
