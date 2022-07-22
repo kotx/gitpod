@@ -4,3 +4,6 @@ sudo apt-get update && sudo apt-get install -yq esl-erlang elixir
 
 # Fly.io
 curl -L https://fly.io/install.sh | sh
+
+# cloudflared
+wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -O /usr/bin/cloudflared
