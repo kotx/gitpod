@@ -7,3 +7,4 @@ curl -L https://fly.io/install.sh | sh
 
 # cloudflared
 wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -O /usr/bin/cloudflared
+chmod +x /usr/bin/cloudflared
