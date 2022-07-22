@@ -10,4 +10,4 @@ sudo wget https://github.com/cloudflare/cloudflared/releases/latest/download/clo
 sudo chmod +x /usr/bin/cloudflared
 
 # wrangler
-pnpm i -g wrangler@latest
+npm i -g wrangler@latest
